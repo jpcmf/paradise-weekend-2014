@@ -1,0 +1,83 @@
+
+
+
+/*// Small screens*/
+@media only screen { 
+
+	img.logo.top{ max-width:60%; max-height:60%; /*margin:0 auto;*/ left:2%; /*right:0;*/ top:20%;}
+	.social{right:10%; top:25%;}
+	.social li a img{width:30px; height:30px;}
+	img.botao.top{ max-width:40%; max-height:40%; /*margin:0 auto;*/ /*left:0;*/ right:2%; bottom:20%;}
+
+    img.logo.bottom{ max-width:53%; max-height:53%; /*margin:0 auto;*/ left:2%; /*right:0;*/ top:20%;}
+    img.text{max-width:40%; max-height:40%; /*margin:0 auto;*/ right:2%; /*right:0;*/ top:20%;}
+    img.botao.bottom{ max-width:40%; max-height:40%; /*margin:0 auto;*/ right:2%; /*right:0;*/ bottom:26%;}
+	img.btVenda {max-width:15%;max-height:15%;bottom:0;left:0;right:0;}
+
+	} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+	img.logo.top{ max-width:50%; max-height:50%; /*margin:0 auto;*/ left:2%; /*right:0;*/ top:20%;}
+	.social{right:10%; top:20%;}
+	.social li a img{width:30px; height:30px;}
+	img.botao.top{ max-width:40%; max-height:40%; /*margin:0 auto;*/ /*left:0;*/ right:2%; bottom:30%;}
+
+	img.logo.bottom{ max-width:43%; max-height:43%; /*margin:0 auto;*/ left:2%; /*right:0;*/ top:20%;}
+    img.text{max-width:40%; max-height:40%; /*margin:0 auto;*/ right:2%; /*right:0;*/ top:20%;}
+    img.botao.bottom{ max-width:40%; max-height:40%; /*margin:0 auto;*/ right:2%; /*right:0;*/ bottom:36%;}
+	img.btVenda {max-width:20%;max-height:20%;bottom:0;left:0;right:0;}
+	} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/*// Medium screens*/
+@media only screen and (min-width: 40.063em) { 
+	
+	} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	img.logo.top{ max-width:65%; max-height:65%; /*margin:0 auto;*/ left:5%; /*right:0;*/ top:20%; }
+	img.botao.top{ max-width:30%; max-height:30%; /*margin:0 auto;*/ /*left:0;*/ right:5%; bottom:15%; }
+	.social li a img{width:60px; height:60px;}
+	
+	img.logo.bottom{ max-width:55%; max-height:55%; /*margin:0 auto;*/ left:5%; /*right:0;*/ bottom:0%;}
+	img.text{max-width:30%; max-height:30%; /*margin:0 auto;*/ right:5%; /*right:0;*/ top:20%;}
+	img.botao.bottom{ max-width:30%; max-height:30%; /*margin:0 auto;*/ right:5%; /*right:0;*/ bottom:25%;}
+
+	} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+/*// Large screens*/
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+img.logo.top{ max-width:70%; max-height:70%; /*margin:0 auto;*/ left:5%; /*right:0;*/ top:15%;}
+img.botao.top{ max-width:30%; max-height:30%; /*margin:0 auto;*/ /*left:0;*/ right:5%; bottom:15%; }
+.social li a img{width:71px; height:71px;}
+
+img.logo.bottom{ max-width:60%; max-height:60%; /*margin:0 auto;*/ left:5%; /*right:0;*/ bottom:0%;}
+img.text{max-width:30%; max-height:30%; /*margin:0 auto;*/ right:5%; /*right:0;*/ top:20%;}
+img.botao.bottom{ max-width:30%; max-height:30%; /*margin:0 auto;*/ right:5%; /*right:0;*/ bottom:20%;}
+	} /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+
+/*// XLarge screens*/
+@media only screen and (min-width: 90.063em) { 
+	
+
+	} /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+
+	img.logo.top{ max-width:65%; max-height:65%; /*margin:0 auto;*/ left:5%; /*right:0;*/ top:20%; }
+	.social{right:5%; top:25%;}
+	.social li a img{width:71px; height:71px;}
+	img.botao.top{ max-width:35%; max-height:35%; /*margin:0 auto;*/ /*left:0;*/ right:5%; bottom:15%; }
+
+    img.logo.bottom{ max-width:57%; max-height:57%; /*margin:0 auto;*/ left:5%; /*right:0;*/ top:20%;}
+    img.text{max-width:35%; max-height:35%; /*margin:0 auto;*/ right:5%; /*right:0;*/ top:20%;}
+    img.botao.bottom{ max-width:35%; max-height:35%; /*margin:0 auto;*/ right:5%; /*right:0;*/ bottom:25%;}
+	
+	img.btVenda {max-width:45%;max-height:45%;bottom:0;left:0;right:0;}
+
+	} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+/*// XXLarge screens*/
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
+

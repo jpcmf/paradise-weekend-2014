@@ -1,0 +1,106 @@
+html,
+body {
+	font-family: 'BebasRegular';
+	height: 100%;
+	width: 100%;
+}
+
+.slide {
+	background-attachment: fixed;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.wrapper {
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+	position: relative;
+	width: 100%;
+}
+
+/******************************
+SLIDE 1
+*******************************/
+
+#slide1 {
+	z-index: 1000;
+}
+
+.container {
+	margin: auto;
+	position: relative;
+	width: 1000px;
+}
+
+.container-top {
+	float: left;
+	height: 50%;
+	position: relative;
+	width: 100%;
+}
+
+.social {
+	position: absolute;
+}
+
+.social li {
+	display: inline;
+	margin-left: 3px;
+}
+
+.social li a img {
+	height: auto;
+	width: auto;
+}
+
+.container-bottom {
+	float: left;
+	height: 50%;
+	position: relative;
+	width: 100%;
+}
+
+.container-top {
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background: transparent url('../images/bgCarnavalTop.jpg') center top no-repeat!important;
+}
+
+.container-bottom {
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background: transparent url('../images/bgCarnavalBottom.jpg') center top no-repeat!important;
+}
+
+img.logo {
+	height: auto;
+	position: absolute;
+	width: auto;
+}
+
+img.botao {
+	height: auto;
+	position: absolute;
+	width: auto;
+}
+
+img.text {
+	height: auto;
+	position: absolute;
+	width: auto;
+}
+
+.btVenda {
+	height: auto;
+	margin: 0 auto;
+	position: absolute;
+	width: auto;
+	z-index: 100;
+}
